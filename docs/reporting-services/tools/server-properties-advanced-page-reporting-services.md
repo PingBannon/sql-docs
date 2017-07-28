@@ -80,7 +80,7 @@ manager: "erikre"
   
  **EnableIntegratedSecurity**  
  Determines whether Windows integrated security is supported for report data source connections. The default is **True**. The valid values are as follows:  
-  
+   
  **True** = Windows integrated security is enabled.  
   
  **False** = Windows integrated security is not enabled. Report data sources that are configured to use Windows integrated security will not run.  
@@ -105,13 +105,13 @@ manager: "erikre"
  Specifies the number of seconds until a report edit session times out. The default value is 7200 seconds (2 hours).  
   
  **EnableCustomVisuals**  
- Should PowerBI ReportServer enable the display of PowerBI custom visuals. Values are True, False.  Default is True.  
+ Should Power BI Report Server enable the display of Power BI custom visuals. Values are True, False.  Default is True.  
   
  **EnablePowerBIReportExportData**  
- Should PowerBI ReportServer enable the export of data from PowerBI visuals. Values are True, False.  Default is True.  
+ Should Power BI Report Server enable the export of data from Power BI visuals. Values are True, False.  Default is True.  
    
  **EnableXsrfValidation**  
- Should PowerBI ReportServer and SQL Server Report Server require XSRF tokens to prevent XSRF (Cross-side request forgery) attacks.  When this value is false, the server will be less secure.  Values are True, False.  Default is True.  
+ Should Power BI Report Server and SQL Server Report Server require XSRF tokens to prevent XSRF (Cross-side request forgery) attacks.  When this value is false, the server will be less secure.  Values are True, False.  Default is True.  
   
  **EnableTestConnectionDetailedErrors**  
  Indicates whether detailed error messages are sent to the client computer when users test data source connections using the report server. The default value is **true**. If the option is set to **false**, only generic error messages are sent.  
